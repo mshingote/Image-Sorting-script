@@ -14,7 +14,7 @@ def Copy_TO(directory, src, name):
 
 f=open('/home/user/Downloads/nexar_traffic_light_train/labels.csv')
 csv_f=csv.reader(f)
-red_signal=[]
+#red_signal=[]
 
 for row in csv_f:
 	#print row[0],
